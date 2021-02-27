@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>Google Advanced Search</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" 
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" 
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <div class="google-advanced">
+            <div class="google-advanced-header">
+                <img id="logo" src="google.png">
+                <a id="main" href="index.html">Google Search</a>
+            </div>
+            <div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h3 id= "search-title">Advanced Search</h3>
+                <br>
+                <span class="line"></span>
+                <h4>Find pages with...</h4>
+            </div>
+            
+            <div id ="advanced-search-box">
+                <form action="https://google.com/search">
+                      <div class="grid-container">
+                          <div class="grid-item">
+                              <label class="labels ">all these words:</label>
+                          </div>
+                          <div class="grid-item">
+                              <input type="text" class="form-field" name="as_q" autocomplete="off">
+                          </div>
+                          <div class="grid-item">
+                              <label class="labels">this exact word or phrase:</label>
+                          </div>
+                          <div class="grid-item">        
+                              <input type="text" class="form-field" name="as_epq" autocomplete="off">
+                          </div>
+                          <div class="grid-item">
+                              <label class="labels">any of these words:</label>
+                          </div>
+                          <div class="grid-item">
+                              <input type="text" class="form-field" name="as_oq" autocomplete="off">
+                          </div>
+                          <div class="grid-item">
+                              <label class="labels">none of these words:</label>                            
+                          </div>
+                          <div class="grid-item">
+                              <input type="text" class="form-field" name="as_eq" autocomplete="off">
+                          </div>
+                          <br>
+                          <div class="grid-item">
+                            <button id="submit" type="submit">Advanced Search</button>
+                        </div>
+                      </div>                      
+                </form>
+            </div>
+        </div>        
+    </body>
+</html>
